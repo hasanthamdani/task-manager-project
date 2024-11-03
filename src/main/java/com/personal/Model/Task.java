@@ -1,4 +1,4 @@
-package com.personal.Objects;
+package com.personal.Model;
 import java.util.*;
 /*
  * Task is the outline of what a task can be, and must be implemented for specific types

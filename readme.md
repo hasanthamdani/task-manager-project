@@ -37,10 +37,10 @@ BreakDown of Task manager
 
 User Story: As a User, I want to create a task
  a. to create a task I need to input the data for that task
-
  c. Data Persists in Database
-  - Requires sqlite DB to be create and connection made
- d. Object needs to be turned into Database Entry 
+ f. Object needs to be turned into Database Entry 
+
+ d. Requires sqlite DB to be create and connection made (PARTIAL)
  e. Object needs to be defined (DONE)
 	 b. Data: Name of Task, Type of Task, Larger Project that Task is in, Subtasks, and What that Task is, and Status
 
