@@ -39,8 +39,9 @@ User Story: As a User, I want to create a task
  a. to create a task I need to input the data for that task
 
  c. Data Persists in Database
- d. Object needs to be turned into Database Entry
- e. Object needs to be defined
+  - Requires sqlite DB to be create and connection made
+ d. Object needs to be turned into Database Entry 
+ e. Object needs to be defined (DONE)
 	 b. Data: Name of Task, Type of Task, Larger Project that Task is in, Subtasks, and What that Task is, and Status
 
 Engineering STory: As an Engineer, I want to see tests for all main features that are implemented
@@ -65,7 +66,8 @@ User Story: As a User I want to delete a task
 
 User Story: As a User I want to view all projects, all tasks, and all subtasks
  a. View all projects with a Dropdown for Tasks and a Dropdown for Subtasks.
-
+ b. Query all tasks in the database while accounting for subtasks
+ c. 
 
 
 Three Tier Layer Architecture
@@ -82,14 +84,16 @@ Business Tier
 - Lombok
 
 Data Tier
--  Java Persistence API
+-  JDBC
 
 
 Technologies:
 1. JavaFX
-2. JPA API
-3. JUNit
-4. Lombok
+2. JDBC
+3. SQLite
+4. JUNit
 5. Maven
 6. Git
 
+
+https://github.com/xerial/sqlite-jdbc

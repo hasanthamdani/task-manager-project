@@ -73,8 +73,6 @@ public abstract class Task
     public int getStatus()
     {
         return this.status;
-
-        type.h
     }
 
 
